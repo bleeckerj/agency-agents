@@ -62,6 +62,8 @@ Browse the agents below and copy/adapt the ones you need!
 
 See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
 
+> **New here?** Read [GETTING_STARTED.md](GETTING_STARTED.md) for a step-by-step technical guide on wiring agents into your tools.
+
 ---
 
 ## 🎨 The Agency Roster
