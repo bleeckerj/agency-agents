@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency UI Implementation"
+  short_description: "Implement and review frontend changes"
+  default_prompt: "Use $agency-ui-implementation to implement or review this UI change with responsive, accessible, production-minded checks."

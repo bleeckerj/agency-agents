@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Backend Architecture"
+  short_description: "Design APIs, schemas, and services"
+  default_prompt: "Use $agency-backend-architecture to design or review this backend change with clear trade-offs, boundaries, and implementation guidance."

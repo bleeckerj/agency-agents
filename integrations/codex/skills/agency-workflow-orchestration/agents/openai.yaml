@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Workflow Orchestration"
+  short_description: "Plan and coordinate staged delivery"
+  default_prompt: "Use $agency-workflow-orchestration to break this work into phases, handoffs, and quality gates."

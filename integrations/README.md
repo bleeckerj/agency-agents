@@ -9,6 +9,7 @@ supported agentic coding tools.
 - **[GitHub Copilot](#github-copilot)** — `.md` agents, use the repo directly
 - **[Antigravity](#antigravity)** — `SKILL.md` per agent in `antigravity/`
 - **[Gemini CLI](#gemini-cli)** — extension + `SKILL.md` files in `gemini-cli/`
+- **[Codex](#codex)** — curated workflow skills in `codex/skills/`
 - **[OpenCode](#opencode)** — `.md` agent files in `opencode/`
 - **[OpenClaw](#openclaw)** — `SOUL.md` + `AGENTS.md` + `IDENTITY.md` workspaces
 - **[Cursor](#cursor)** — `.mdc` rule files in `cursor/`
@@ -26,6 +27,7 @@ supported agentic coding tools.
 ./scripts/install.sh --tool copilot
 ./scripts/install.sh --tool openclaw
 ./scripts/install.sh --tool claude-code
+./scripts/install.sh --tool codex
 
 # Gemini CLI needs generated integration files on a fresh clone
 ./scripts/convert.sh --tool gemini-cli
@@ -100,6 +102,20 @@ Because the Gemini manifest and skill folders are generated artifacts, run
 ```
 
 See [gemini-cli/README.md](gemini-cli/README.md) for details.
+
+---
+
+## Codex
+
+Codex support is a curated pack of workflow-oriented skills under
+`integrations/codex/skills/`. It does not mirror every repository agent 1:1.
+Install the committed skill folders directly to `${CODEX_HOME:-~/.codex}/skills/`.
+
+```bash
+./scripts/install.sh --tool codex
+```
+
+See [codex/README.md](codex/README.md) for details.
 
 ---
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Production Readiness"
+  short_description: "Skeptical release-readiness review"
+  default_prompt: "Use $agency-production-readiness to review this change skeptically and tell me whether it is actually ready to ship."
